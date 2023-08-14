@@ -149,9 +149,10 @@ msix_config:
 
 dependency_overrides:
   geolocator_android:
-    hosted:
-      name: geolocator_android
-      url: https://hanntech-gmbh.gitlab.io/free2pass/flutter-geolocator-floss
+    git:
+      url: https://gitlab.com/free2pass/flutter-geolocator-floss.git
+      ref: master
+      path: geolocator_android
   # waiting for null safety
   # Upstream pull request: https://github.com/AntoineMarcel/keyboard_shortcuts/pull/13
   keyboard_shortcuts:
